@@ -80,15 +80,15 @@ footer {
   color: #4ecca3; /* Changes text color on hover */
 }
 
- @media (max-width: 991.98px) {
+@media (max-width: 991.98px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   p {
     font-size: 2.5rem;
   }
   .dice img {
-    width: 80%; /* Adjust size for smaller screens 
+    width: 80%;
   }
   #startBtn {
     padding: 10px;
@@ -98,5 +98,5 @@ footer {
   #restartBtn {
     padding: 10px;
     font-size: 1.5rem;
-  } 
+  }
 }
