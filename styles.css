@@ -1,0 +1,102 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: #393e46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+  min-width: 100%;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+.buttons {
+  display: block;
+  margin: auto;
+}
+
+#restartBtn {
+  margin-top: 10%;
+  margin-right: 2%;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  font-size: 2rem;
+  color: #4ecca3;
+  transition: background-color 0.3s ease;
+  font-family: "Indie Flower", cursive;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#restartBtn:hover {
+  background-color: #666b74; /* Changes background color on hover */
+  color: #4ecca3; /* Changes text color on hover */
+}
+
+#startBtn {
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 10%;
+  font-size: 2rem;
+  color: #4ecca3;
+  transition: background-color 0.3s ease;
+  font-family: "Indie Flower", cursive;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#startBtn:hover {
+  background-color: #666b74; /* Changes background color on hover */
+  color: #4ecca3; /* Changes text color on hover */
+}
+
+ @media (max-width: 991.98px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+  .dice img {
+    width: 80%; /* Adjust size for smaller screens 
+  }
+  #startBtn {
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+
+  #restartBtn {
+    padding: 10px;
+    font-size: 1.5rem;
+  } 
+}
